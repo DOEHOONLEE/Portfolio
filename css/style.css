@@ -59,6 +59,12 @@ container {
         text-align: right;
     }
     
+    .background_image {
+        max-width: 90%;
+        height: 30%;
+        /****/
+    }
+    
     .col_3 {
         display: block;
         margin: 0;
