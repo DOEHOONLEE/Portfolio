@@ -24,7 +24,7 @@ container {
 
 .container {
     display: block;
-    overflow: auto;
+    overflow: hidden;
 }
 
 @media screen and (min-width: 300px) {
@@ -83,8 +83,8 @@ container {
 
 @media screen and (min-width: 1000px) {
     .col_3 {
-        width: 25%;
-        margin: 1%;
+        width: 18%;
+        margin: 2.5%;
         display: inline-block;
     }
     
@@ -148,8 +148,7 @@ article p {
     text-decoration: underline;
 }
 
-.volunteer_abroad_picture, .animal_chess_picture {
-    display: block;
+.portfolio_pictures {
     max-width: 100%;
     width: 240px;
     height: auto;
