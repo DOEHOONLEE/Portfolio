@@ -3,7 +3,6 @@
     <head>
         <title>Portfolio Site</title>
         <meta charset="utf-8">
-        <meta http-equiv="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -16,7 +15,7 @@
         <header>
             <div class="container">
                 <div class="col_2 logo">
-                    <img src="images/my_photo.jpg" class="logo_photo" alt="my photo">
+                    <img src="img/my_photo.jpg" class="logo_photo" alt="my photo">
                 </div>
                 <div class="col_10 info">
                     <ul>
@@ -29,14 +28,16 @@
         <hr>
         <div class="container">
             <picture>
-                <img src="images/background_image.jpg" alt="stone" class="background_image">
+                <source srcset="img/mini_bg_img.png" media="(max-width: 400px)">
+                <source srcset="img/bg_img.png">
+                <img src="img/bg_img.png" alt="background image stone" class="background_image">
             </picture>
         </div>
         <article>
             <p>Portfolio list</p>
             <div class="container">
                 <div class="col_respon">
-                    <img src="images/volunteer_abroad_1.png" alt="Volunteer Abroad" type="button" class="btn btn-info portfolio_pictures" data-toggle="modal" data-target=".modal_volunteer_abroad">
+                    <img src="img/volunteer_abroad_1.png" alt="Volunteer Abroad" type="button" class="btn btn-info portfolio_pictures" data-toggle="modal" data-target=".modal_volunteer_abroad">
                     <figcaption>Volunteer opportunities</figcaption>
                 </div>
                 <!-- Modal -->
@@ -45,18 +46,18 @@
                         <!-- Modal content -->
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <button class="close" data-dismiss="modal">&times;</button>
                                 <h3 class="modal-title">Volunteer Abroad!</h3>
                             </div>
                             <div class="modal-body">
                                 <div class="col_respon">
-                                    <img src="images/volunteer_abroad_2.png" alt="Volunteer Abroad" class="sample_pictures">
+                                    <img src="img/volunteer_abroad_2.png" alt="Volunteer Abroad" class="sample_pictures">
                                 </div>
                                 <div class="col_respon">
-                                    <img src="images/volunteer_abroad_3.png" alt="Volunteer Abroad" class="sample_pictures">
+                                    <img src="img/volunteer_abroad_3.png" alt="Volunteer Abroad" class="sample_pictures">
                                 </div>
                                 <div class="col_respon">
-                                    <img src="images/volunteer_abroad_4.png" alt="Volunteer Abroad" class="sample_pictures">
+                                    <img src="img/volunteer_abroad_4.png" alt="Volunteer Abroad" class="sample_pictures">
                                 </div>
                                 <p>If you would like to do some volunteer work in other countries, check this out!</p>
                                 <p>Find out the price, destinations, and positions here</p>
@@ -69,15 +70,15 @@
                     </div>
                 </div>
                 <div class="col_respon">
-                    <img src="images/animal_chess_1.png" alt="Animal Chess" class="portfolio_pictures">
+                    <img src="img/animal_chess_1.png" alt="Animal Chess" class="portfolio_pictures">
                     <figcaption>Animal Chess</figcaption>
                 </div>
                 <div class="col_respon">
-                    <img src="images/upcoming_projects.png" alt="Upcoming Projects" class="portfolio_pictures">
+                    <img src="img/upcoming_projects.png" alt="Upcoming Projects" class="portfolio_pictures">
                     <figcaption>Online Resume</figcaption>
                 </div>
                 <div class="col_respon">
-                    <img src="images/upcoming_projects.png" alt="Upcoming Projects" class="portfolio_pictures">
+                    <img src="img/upcoming_projects.png" alt="Upcoming Projects" class="portfolio_pictures">
                     <figcaption>Arcade Game</figcaption>
                 </div>
             </div>
