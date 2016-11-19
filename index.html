@@ -5,8 +5,11 @@
         <meta charset="utf-8">
         <meta http-equiv="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -32,19 +35,48 @@
         <article>
             <p>Portfolio list</p>
             <div class="container">
-                <div class="col_3">
-                    <img src="images/volunteer_abroad_1.png" alt="Volunteer Abroad" class="portfolio_pictures">
+                <div class="col_respon">
+                    <img src="images/volunteer_abroad_1.png" alt="Volunteer Abroad" type="button" class="btn btn-info portfolio_pictures" data-toggle="modal" data-target=".modal_volunteer_abroad">
                     <figcaption>Volunteer opportunities</figcaption>
                 </div>
-                <div class="col_3">
+                <!-- Modal -->
+                <div class="modal fade modal_volunteer_abroad" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Volunteer Abroad!</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col_respon">
+                                    <img src="images/volunteer_abroad_2.png" alt="Volunteer Abroad" class="sample_pictures">
+                                </div>
+                                <div class="col_respon">
+                                    <img src="images/volunteer_abroad_3.png" alt="Volunteer Abroad" class="sample_pictures">
+                                </div>
+                                <div class="col_respon">
+                                    <img src="images/volunteer_abroad_4.png" alt="Volunteer Abroad" class="sample_pictures">
+                                </div>
+                                <p>If you would like to do some volunteer work in other countries, check this out!</p>
+                                <p>Find out the price, destinations, and positions here</p>
+                                <a href="https://doehoonlee.github.io/RED-Academy-project-1/"><p class="link">Go to Volunteer Abroad!</p></a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_respon">
                     <img src="images/animal_chess_1.png" alt="Animal Chess" class="portfolio_pictures">
                     <figcaption>Animal Chess</figcaption>
                 </div>
-                <div class="col_3">
+                <div class="col_respon">
                     <img src="images/upcoming_projects.png" alt="Upcoming Projects" class="portfolio_pictures">
                     <figcaption>Online Resume</figcaption>
                 </div>
-                <div class="col_3">
+                <div class="col_respon">
                     <img src="images/upcoming_projects.png" alt="Upcoming Projects" class="portfolio_pictures">
                     <figcaption>Arcade Game</figcaption>
                 </div>

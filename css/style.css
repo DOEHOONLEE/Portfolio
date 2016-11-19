@@ -3,11 +3,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
-}
-
-container {
-    max-width: 1200px;
-    width: 100%;
+    margin: 8px;
 }
 
 .col_2 {
@@ -28,10 +24,6 @@ container {
 }
 
 @media screen and (min-width: 300px) {
-    .logo {
-        
-    }
-    
     .logo_photo {
         display: inline-block;
         max-width: 100%;
@@ -65,7 +57,7 @@ container {
         /****/
     }
     
-    .col_3 {
+    .col_respon {
         display: block;
         margin: 0;
     }
@@ -88,7 +80,7 @@ container {
 }
 
 @media screen and (min-width: 1000px) {
-    .col_3 {
+    .col_respon {
         width: 18%;
         margin: 2.5%;
         display: inline-block;
@@ -143,6 +135,13 @@ img {
     border-radius: 5px;
 }
 
+.btn {
+    border: 4px solid skyblue;
+    border-radius: 5px;
+    padding: 0;
+    display: block;
+}
+
 .background_image {
     width: 549px;
     height: 309px;
@@ -160,6 +159,15 @@ article p {
     height: auto;
 }
 
+.sample_pictures {
+    max-width: 100%;
+    width: 240px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    margin: 15px;
+}
+
 figcaption {
     margin-left: 20px;
     margin-top: 5px;
@@ -167,4 +175,20 @@ figcaption {
 
 footer {
     text-align: center;
+}
+
+.modal-body p {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.link {
+    text-decoration: none;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #668cff;
 }
