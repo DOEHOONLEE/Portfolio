@@ -53,8 +53,7 @@ body {
     
     .background_image {
         max-width: 90%;
-        height: 30%;
-        /****/
+        height: 150px;
     }
     
     .col_respon {
@@ -76,6 +75,12 @@ body {
     .info {
         position: relative;
         top: -25px;
+    }
+    
+    .background_image {
+        width: 549px;
+        height: 309px;
+        opacity: 0.8;
     }
 }
 
@@ -117,6 +122,12 @@ body {
     .job_description {
         font-size: 20px;
     }
+    
+    .background_image {
+        width: 549px;
+        height: 309px;
+        opacity: 0.8;
+    }
 }
 
 ul {
@@ -140,12 +151,6 @@ img {
     border-radius: 5px;
     padding: 0;
     display: block;
-}
-
-.background_image {
-    width: 549px;
-    height: 309px;
-    opacity: 0.8;
 }
 
 article p {
