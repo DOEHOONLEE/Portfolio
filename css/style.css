@@ -1,6 +1,6 @@
 body {
     background-color: aliceblue;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: "Titillium Web", sans-serif;
     padding-left: 10%;
     padding-right: 10%;
     margin: 8px;
@@ -34,7 +34,7 @@ body {
     
     .info {
         position: relative;
-        top: 0px;
+        top: 0;
     }
     
     .name {
